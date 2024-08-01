@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FLEX DIRECTION</title>
+    <style>
+        .parent{
+            box-shadow: 0px 0px 5px 5px rgb(202, 185, 185);
+            background-color: rgb(224, 224, 176);
+            display: flex;
+            padding: 20px;
+
+           
+        }
+        .parent1{
+            box-shadow: 0px 0px 5px 5px rgb(202, 185, 185);
+            background-color: rgb(224, 224, 176);
+            display: flex;
+            padding: 20px;
+            flex-direction: row-reverse;
+           
+        }
+        .parent2{
+            box-shadow: 0px 0px 5px 5px rgb(202, 185, 185);
+            background-color: rgb(224, 224, 176);
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+           
+        }
+        .parent3{
+            box-shadow: 0px 0px 5px 5px rgb(202, 185, 185);
+            background-color: rgb(224, 224, 176);
+            display: flex;
+            padding: 30px 15px;
+            flex-direction: column-reverse;
+           
+        }
+        .book{
+            color: rgb(22, 20, 20);
+            background-color:white;
+            border: rgb(158, 154, 154) 2px solid;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 0px rgb(99, 95, 95);
+            height: 300px;
+            width: 200px;
+            padding: 10px;
+           
+
+        }
+        
+        .btn{
+            margin-left: 20px 20px;
+                margin-top: 10px;
+            border-radius: 35px;
+            background-color: black;
+            color: white;
+            box-shadow: 0px 0px 5px 0px rgb(131, 126, 126);
+            padding: 5px 10px 5px 10px;
+        }
+         .Category{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        .img1{
+
+            
+            height: 180px;
+            width: 180px;
+            padding: 5px 0px 5px 10px;
+            
+        }
+        .name{
+            text-align: center;
+            margin-top: 20px;
+           }
+      
+       </style>
+</head>
+<body>       
+    <h2 class="Category">INITIALLY</h2>
+    <div class="parent">
+    <div class="book">
+        <img src="./images/newr.jpg" class="img1"/>
+        <div class="name">
+           <b> New Release</b>
+           <br/>
+            <button class="btn">
+
+                Explore More
+            </button>
+        </div>
+    </div>
+
+    <div class="book">
+        <img src="./images/exam.jpg"class="img1"/>
+        <div class="name">
+            <b> Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+</div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/highed.jpg"class="img1"/>
+        <div class="name">
+            <b> Higher Education</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/mpsc.jpg" class="img1"/>
+        <div class="name">
+            <b>Gov. Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/child.jpg"class="img1"/>
+        <div class="name">
+            <b>Child's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+
+    </div>
+   
+    <div class="book">
+        <img src="./images/language.jpg"class="img1"/>
+        <div class="name">
+            <b>Language's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+    </div>
+</div>
+</div>
+<br/>
+<hr/>
+
+
+
+<h2 class="Category">flex-direction Row Reverse:</h2>
+    <div class="parent1">
+    <div class="book">
+        <img src="./images/newr.jpg" class="img1"/>
+        <div class="name">
+           <b> New Release</b>
+           <br/>
+            <button class="btn">
+
+                Explore More
+            </button>
+        </div>
+    </div>
+
+    <div class="book">
+        <img src="./images/exam.jpg"class="img1"/>
+        <div class="name">
+            <b> Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+</div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/highed.jpg"class="img1"/>
+        <div class="name">
+            <b> Higher Education</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/mpsc.jpg" class="img1"/>
+        <div class="name">
+            <b>Gov. Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/child.jpg"class="img1"/>
+        <div class="name">
+            <b>Child's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+
+    </div>
+   
+    <div class="book">
+        <img src="./images/language.jpg"class="img1"/>
+        <div class="name">
+            <b>Language's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+    </div>
+</div>
+</div>
+<br/>
+<hr/>
+
+
+<h2 class="Category">flex-direction Column:</h2>
+    <div class="parent2">
+    <div class="book">
+        <img src="./images/newr.jpg" class="img1"/>
+        <div class="name">
+           <b> New Release</b>
+           <br/>
+            <button class="btn">
+
+                Explore More
+            </button>
+        </div>
+    </div>
+
+    <div class="book">
+        <img src="./images/exam.jpg"class="img1"/>
+        <div class="name">
+            <b> Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+</div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/highed.jpg"class="img1"/>
+        <div class="name">
+            <b> Higher Education</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/mpsc.jpg" class="img1"/>
+        <div class="name">
+            <b>Gov. Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/child.jpg"class="img1"/>
+        <div class="name">
+            <b>Child's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+
+    </div>
+   
+    <div class="book">
+        <img src="./images/language.jpg"class="img1"/>
+        <div class="name">
+            <b>Language's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+    </div>
+</div>
+</div>
+<br/>
+<hr/>
+
+
+
+<h2 class="Category">flex-direction column Reverse:</h2>
+    <div class="parent3">
+    <div class="book">
+        <img src="./images/newr.jpg" class="img1"/>
+        <div class="name">
+           <b> New Release</b>
+           <br/>
+            <button class="btn">
+
+                Explore More
+            </button>
+        </div>
+    </div>
+
+    <div class="book">
+        <img src="./images/exam.jpg"class="img1"/>
+        <div class="name">
+            <b> Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+</div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/highed.jpg"class="img1"/>
+        <div class="name">
+            <b> Higher Education</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/mpsc.jpg" class="img1"/>
+        <div class="name">
+            <b>Gov. Exam</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+        </div>
+    </div>
+   
+    <div class="book">
+        <img src="./images/child.jpg"class="img1"/>
+        <div class="name">
+            <b>Child's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+
+    </div>
+   
+    <div class="book">
+        <img src="./images/language.jpg"class="img1"/>
+        <div class="name">
+            <b>Language's</b><br/>
+            <button class="btn">
+                Explore More
+            </button>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>
